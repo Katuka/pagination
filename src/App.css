@@ -1,5 +1,10 @@
+html {
+  font-size: 62.5%;
+}
+
 .App {
   text-align: center;
+  font-size: calc(6px + 2vmin);
 }
 
 .App-logo {
@@ -7,16 +12,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: rgb(44, 42, 42); */
+  /* text-align: left; */
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.list-group-item {
+  text-align: left;
 }
